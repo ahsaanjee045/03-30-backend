@@ -8,7 +8,12 @@
 ```
 
 3. Create a .env file in the root of your directory
-4. Run the command
+4. Add these variables to your .env file that you just created
+    ```
+    MONGO_URI = yourdburl
+    PORT = port
+    ```
+5. Run the command
     ```
     npm run server
     ```
