@@ -7,3 +7,6 @@ connectDB().then(() => {
         console.log(`Express server listening on port : ${process.env.PORT}`);
     });
 });
+
+
+// typescript
