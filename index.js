@@ -9,4 +9,4 @@ connectDB().then(() => {
 });
 
 
-// typescript
+//some other comment
