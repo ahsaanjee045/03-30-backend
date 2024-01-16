@@ -1,8 +1,8 @@
-const registerUser = require("../controllers/user.controller")
+const registerUser = require("../controllers/user.controller");
+const upload = require("../middlewares/image.upload");
 
-const router = require("express").Router()
+const router = require("express").Router();
 
+router.get("/register", upload.single("avatar"), registerUser);
 
-router.get("/register", registerUser)
-
-module.exports = router
+module.exports = router;
