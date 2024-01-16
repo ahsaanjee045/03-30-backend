@@ -37,6 +37,7 @@ const userSchema = new mongoose.Schema(
                     required: true,
                 },
             },
+            required : [true, "Avatar is a required field."],
         },
         role: {
             type: String,
